@@ -13,7 +13,7 @@ Feature: Cadastro de Usuario
     When tentei me inscrever com um email invalido
     Then o sistema notifica que o email utilizado é invalido
 
-    Scenario: Cadastrar usuario com email existenta
+    Scenario: Cadastrar usuario com email existente
     Given Cliquei para me inscrever na loja
     When tentei me inscrever com um email que ja esta em uso
     Then o sistema notifica que o email utilizado ja esta sendo usado por outro usuario
