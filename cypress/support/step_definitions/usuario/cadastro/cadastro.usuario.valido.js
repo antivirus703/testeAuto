@@ -8,10 +8,7 @@ let user = { email: Faker.internet.email(),
         last: Faker.name.lastName()
     }}
 
-Given('Cliquei para me inscrever na loja', () => {
-    cy.visit('').get('.login').click()
-    .url().should('include','controller=authentication&back=my-account')
-})
+
 When('informe meu email para cadastro de usuario', () => {
     cy.get('#email_create').type(`${user.email}{enter}`)
 })
