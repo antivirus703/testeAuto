@@ -1,4 +1,4 @@
-# Repositorio de testes e front-end
+# Repositorio de testes de automação com Cypress e cucumber para Web.
 
 **Olá! Bem vindo ao meu repositorio de testes e projetos front-end!**
 
