@@ -4,3 +4,4 @@
 
 Primeiro teste simples de automação para cadastrar usuario em plataforma de marketplace, cadastrar usuario invalido, usuario com e-mail em uso, login de usuario valido, login de usuario com ou sem cadastro, login de usuario utilizando senha ou não e login de usuario valido pressionando enter.
 
+Relatorio de execução: https://dashboard.cypress.io/projects/m4eh5z/runs/1/overview
